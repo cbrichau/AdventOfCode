@@ -9,3 +9,4 @@ To test out the code:
 1. Clone the repo
 2. Run `php -S localhost:8000`
 3. Open http://localhost:8000/
+4. Click a day's "Output"
