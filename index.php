@@ -31,7 +31,7 @@
 					<p><a href="<?php echo $link ?>#part2" target="_blank">Part 2</a></p>
 				</td>
 				<td>
-					<?php $file = 'https://github.com/cbrichau/AdventOfCode/tree/main/day' . $d . '/output'; ?>
+					<?php $file = 'https://github.com/cbrichau/AdventOfCode/blob/master/day' . $d . '/output'; ?>
 					<?php $output = '/day' . $d . '/output'; ?>
 					<p><a href="<?php echo $file ?>1.php" target="_blank">File 1</a> - <a href="<?php echo $output ?>1.php">Output 1</a></p>
 					<p><a href="<?php echo $file ?>2.php" target="_blank">File 2</a> - <a href="<?php echo $output ?>2.php">Output 2</a></p>
