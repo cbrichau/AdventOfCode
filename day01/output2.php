@@ -9,4 +9,4 @@ foreach ($groupsOfCalories as $groupOfCalories)
 rsort($totals);
 
 echo $totals[0] + $totals[1] + $totals[2];
-# Answer = 210367
+// Answer = 210367

@@ -15,4 +15,4 @@ for ($i = 0; $i < count($bags); $i += 3)
 }
 
 echo $total;
-# Answer = 2587
+// Answer = 2587

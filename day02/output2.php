@@ -24,4 +24,4 @@ foreach ($rounds as $round)
 	$score += $points[$round];
 
 echo $score;
-# Answer = 8295
+// Answer = 8295

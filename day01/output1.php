@@ -12,4 +12,4 @@ foreach ($groupsOfCalories as $groupOfCalories)
 }
 
 echo $max;
-# Answer = 72478
+// Answer = 72478

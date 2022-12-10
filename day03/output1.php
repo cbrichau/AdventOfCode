@@ -19,4 +19,4 @@ foreach ($bags as $items)
 }
 
 echo $total;
-# Answer = 8240
+// Answer = 8240
