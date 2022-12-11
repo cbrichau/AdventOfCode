@@ -1,7 +1,6 @@
 <?php
 
-$input = file_get_contents(__DIR__ . '\input.txt');
-$pairs = explode("\n", $input);
+$pairs = require_once('extractInput.php');
 $count = 0;
 
 function isBetween($start, $val, $end): bool

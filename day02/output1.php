@@ -1,7 +1,6 @@
 <?php
 
-$input = file_get_contents(__DIR__ . '\input.txt');
-$rounds = explode("\n", $input);
+$rounds = require_once('extractInput.php');
 
 $points = [
 	'X' => 1, // Rock
@@ -22,7 +21,6 @@ $points = [
 ];
 
 $score = 0;
-
 foreach ($rounds as $round)
 	$score += $points[$round] + $points[substr($round, -1)];
 

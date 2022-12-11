@@ -1,7 +1,6 @@
 <?php
 
-$input = file_get_contents(__DIR__ . '\input.txt');
-$groupsOfCalories = preg_split("#\n\s\n#", $input);
+$groupsOfCalories = require_once('extractInput.php');
 
 foreach ($groupsOfCalories as $groupOfCalories)
 	$totals[] = array_sum(explode("\n", $groupOfCalories));

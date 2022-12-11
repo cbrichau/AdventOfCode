@@ -1,7 +1,6 @@
 <?php
 
-$input = file_get_contents(__DIR__ . '\input.txt');
-$bags = explode("\n", $input);
+$bags = require_once('extractInput.php');
 $total = 0;
 
 for ($i = 0; $i < count($bags); $i += 3)

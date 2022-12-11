@@ -20,7 +20,7 @@
 function extractStacksAndMovementsInput(): array
 {
 	$input = file_get_contents(__DIR__ . '\input.txt');
-	list($stacksInput, $movementsInput) = preg_split("#\n\n#", $input);
+	list($stacksInput, $movementsInput) = preg_split("#((\r\n)|\r|\n){2}#", $input);
 
 	$movements = explode("\n", $movementsInput);
 
